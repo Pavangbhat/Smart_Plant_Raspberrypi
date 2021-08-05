@@ -1,0 +1,65 @@
+.statusContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #078080;
+  color: #f8f5f2;
+}
+
+.plantStatusWrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-radius: 1rem;
+  align-items: center;
+}
+
+.smallPlant {
+  width: 400px;
+  height: 400px;
+}
+
+.plantIllustration {
+  width: 900px;
+  height: 100%;
+}
+.plantStatusHeading {
+  font-size: 60px;
+}
+
+@media only screen and (max-width: 1371px) {
+  .plantIllustration {
+    width: 700px;
+  }
+  .smallPlant {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 1227px) {
+  .plantIllustration {
+    width: 600px;
+  }
+  .smallPlant {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .plantIllustration {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 539px) {
+  .plantIllustration {
+    display: none;
+  }
+  .smallPlant {
+    width: 200px;
+  }
+}

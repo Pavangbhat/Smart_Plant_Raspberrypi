@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    font-size: 4rem;
+    font-family: fantasy;
+    color: #094067;
+}
+
+.dashBoardContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #094067;
+    padding: 1rem;
+}
+
+.dashBoardItems{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dashboardText{
+    color: #ffffff;
+}

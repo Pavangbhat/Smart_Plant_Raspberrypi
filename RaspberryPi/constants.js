@@ -1,0 +1,6 @@
+const DHT11 = 4; // GPIO 4
+const SMOKE_SENSOR = 29;
+const PUMP_RELAY = 40;
+const MOISTURE_SENSOR = 36;
+
+module.exports = { DHT11, SMOKE_SENSOR, PUMP_RELAY, MOISTURE_SENSOR }
